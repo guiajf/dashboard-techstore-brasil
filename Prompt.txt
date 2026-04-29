@@ -1,0 +1,81 @@
+﻿Você é um especialista em visualização de dados e UI/UX design, com expertise em criar dashboards executivos de nível profissional usando Python, Streamlit e Plotly
+
+
+## CONTEXTO
+
+
+Na pasta você tem um arquivo de uma base de vendas da TechStore Brasil, uma loja de eletrônicos. A base tem 32 mil transações, 18 meses de dados, múltiplas categorias, canais, regiões e vendedores.
+
+
+## OBJETIVO
+
+
+Criar um dashboard interativo COMPLETO usando Python, com visual de nível agência de design — moderno, elegante, dark mode premium.
+
+
+## ANÁLISES OBRIGATÓRIAS NO DASHBOARD
+
+
+Preciso dos seguintes KPIs e visualizações:
+
+
+**KPIs principais (cards no topo):**
+- Receita Total
+- Lucro Total
+- Margem de Lucro (%)
+- Ticket Médio
+- Total de Pedidos
+- Cada card deve mostrar variação vs. período anterior (seta + %)
+
+
+**Gráficos:**
+1. Evolução mensal de Receita vs Lucro (linha, dois eixos)
+2. Receita por Categoria (donut ou barras horizontais)
+3. Receita por Canal de Venda (barras)
+4. Receita por Região (mapa ou barras)
+5. Top 10 Produtos mais vendidos (barras horizontais)
+6. Evolução da Margem de Lucro ao longo do tempo (área)
+7. Comparativo de vendas por Forma de Pagamento (donut)
+8. Ranking de Vendedores (top 5, barras)
+
+
+**Tabela final:** Resumo mensal detalhado com Receita, Custo, Lucro e Margem.
+
+
+## DIRETRIZES DE DESIGN (MUITO IMPORTANTES)
+
+
+**Estética:**
+- Dark mode premium (fundo #0a0a0f ou similar, cards em #1a1a24)
+- Tipografia: fonte Inter ou similar, hierarquia clara
+- Paleta de acentos: verde/azul/laranja em tons saturados mas não estridentes
+- Bordas sutis, cantos arredondados (border-radius 12-16px)
+- Sombras suaves e glow points em detalhes importantes
+- Espaçamento generoso (não apertar elementos)
+- Gradientes sutis nos backgrounds dos gráficos
+
+
+**Layout:**
+- Header com título "Dashboard TechStore" + subtítulo com período
+- Grid responsivo
+- Todos os gráficos devem ter título + insight curto abaixo
+- Footer discreto com "Dados fictícios — gerado em [data]"
+
+
+**Interatividade:**
+- Filtro global de período (6 meses / 12 meses / tudo)
+- Tooltips ricos nos gráficos (mostrar valor exato ao passar o mouse)
+- Animações suaves na entrada dos elementos
+- Hover states nos cards (leve elevação)
+
+
+**Tecnologia:**
+- Código limpo e comentado
+- Formatação de números em padrão brasileiro: R$ 1.234.567,89
+- Depois vou querer fazer o deploy no sistema do streamlit de deploy gratuito
+
+
+## DADOS
+
+
+Use os dados reais do arquivo que anexei. Faça a agregação dos 32 mil registros para gerar os KPIs e gráficos. Não invente números — puxe da base.

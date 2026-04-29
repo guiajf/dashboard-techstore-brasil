@@ -118,6 +118,13 @@ p, span, label, div, h1, h2, h3, h4, h5, h6,
 [data-testid="stSidebar"] * {{
     color: {C_TEXT} !important;
 }}
+
+/* Restore Material Symbols font for sidebar collapse/expand buttons */
+[data-testid="stSidebarCollapseButton"] span,
+[data-testid="collapsedControl"] span {{
+    font-family: 'Material Symbols Rounded', 'Material Icons' !important;
+    color: {C_TEXT} !important;
+}}
 </style>
 """, unsafe_allow_html=True)
 
